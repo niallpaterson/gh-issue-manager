@@ -12,6 +12,6 @@
   .LabelContainer{
     display: flex;
     flex-direction: column;
-    margin: $margin-small;
+    margin: $margin-small auto;
   }
 }
