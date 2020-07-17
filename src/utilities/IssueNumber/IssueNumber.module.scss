@@ -1,0 +1,13 @@
+@import '../../variables.scss';
+
+.issueNumber {
+  width: $base-val * 2px;
+  height: $base-val * 2px;
+  border: 2px solid $mint-green;
+  border-radius: 50%;
+  background: white;
+  text-align: center;
+  font-size: $font-small;
+  font-weight: bold;
+  line-height: $base-val * 2px;
+}
