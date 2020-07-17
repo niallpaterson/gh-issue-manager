@@ -3,10 +3,9 @@
 .label {
   display: inline-block;
   text-align: center;
-  line-height: 2px * $base-val;
-  width: auto;
-  min-width: 5px * $base-val;
-  height: 2px * $base-val;
+  line-height: 1.5px * $base-val;
+  width: 4.5px * $base-val;
+  height: 1.5px * $base-val;
   border: 1px solid transparent;
   border-radius: $border-radius-small;
   background: greenyellow;
