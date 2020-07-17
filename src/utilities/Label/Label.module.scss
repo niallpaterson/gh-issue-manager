@@ -10,4 +10,7 @@
   border-radius: $border-radius-small;
   background: greenyellow;
   margin: $margin-small;
+  overflow-y: hidden;
+  text-overflow: ellipsis;
+  font-size: $font-tiny;
 }
