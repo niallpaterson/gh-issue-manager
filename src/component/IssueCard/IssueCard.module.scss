@@ -1,0 +1,9 @@
+@import '../../variables.scss';
+
+.IssueCard {
+  width: $base-val * 25px;
+  height: $base-val * 15px;
+  border-radius: $border-radius-medium;
+  margin: $margin-large;
+  box-shadow: $box-shadow-medium;
+}
