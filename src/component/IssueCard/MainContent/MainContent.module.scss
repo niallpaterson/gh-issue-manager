@@ -1,0 +1,14 @@
+@import "../../../variables.scss";
+
+.MainContent {
+  width: 66.67%;
+  height: 100%;
+  float: right;
+  display: inline-block;
+    h3, p {
+      margin: $margin-small;
+    }
+    p {
+      font-size: $font-small;
+    }
+}
