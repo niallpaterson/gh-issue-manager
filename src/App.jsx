@@ -22,6 +22,9 @@ const App = () => {
     .then((labels) => setRepoLabels(cleanLabels(labels)))
     .catch((err) =>  { if (err) throw err; })
   }
+
+  useEffect(() => ( fetchIssues(repo), fetchLabels(repo) ), [repo]);
+
   return (
    <div className={styles.pageWrapper}>
    </div>
