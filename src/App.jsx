@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import styles from './App.module.scss';
 const App = () => {
 
+  const [repo, setRepo] = useState(['cli/cli']);
   const [repoLabels, setRepoLabels] = useState([]);
   const [issues, setIssues] = useState([]);
 
