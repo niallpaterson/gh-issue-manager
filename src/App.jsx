@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import styles from './App.module.scss';
+import IssuePanel from "./container/IssuePanel"
 const App = () => {
 
   const [repo, setRepo] = useState(['cli/cli']);
@@ -27,6 +28,10 @@ const App = () => {
 
   return (
    <div className={styles.pageWrapper}>
+    <main>
+      <h2>{`github.com/${repo}`}</h2>
+      <IssuePanel issues={issues}/>
+    </main>
    </div>
   );
   }
