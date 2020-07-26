@@ -1,5 +1,4 @@
-import React from "react";
-import styles from "./IssueCard.module.scss";
+import PropTypes from 'prop-types';
 import MainContent from './MainContent';
 import SideBar from './SideBar';
 
@@ -14,6 +13,12 @@ const IssueCard = ({
       <MainContent title={title} body={body} />
     </article>
 );
+
+IssueCard.propTypes = {
+  title: PropTypes.string.isRequired,
+  number: PropTypes.string.isRequired,
+  body: PropTypes.string,
+  labels: PropTypes.array,
 };
 
 export default IssueCard;
