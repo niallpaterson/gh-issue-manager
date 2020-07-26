@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from 'prop-types';
 import styles from "./SideBar.module.scss";
 import IssueNumber from "../../../utilities/IssueNumber";
 import Label from "../../../utilities/Label";
@@ -11,5 +12,16 @@ const SideBar = ({ number, labels }) => (
   </div>
 </aside>
 );
+
+SideBar.PropTypes = {
+  number: PropTypes.string.isRequired,
+  labels: PropTypes.arrayOf(
+    PropTypes.shape({
+      index: PropTypes.number.isRequired,
+      name: PropTypes.string.isRequired,
+      color: PropTypes.string.isRequired,
+    }).isRequired,
+  ),
+};
 
 export default SideBar;
