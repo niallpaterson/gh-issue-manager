@@ -1,4 +1,6 @@
+import React from 'react';
 import PropTypes from 'prop-types';
+import styles from './IssueCard.module.scss';
 import MainContent from './MainContent';
 import SideBar from './SideBar';
 
