@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 import PropTypes from 'prop-types';
-import styles from "./SideBar.module.scss";
-import IssueNumber from "../../../utilities/IssueNumber";
-import Label from "../../../utilities/Label";
+import styles from './SideBar.module.scss';
+import IssueNumber from '../../../utilities/IssueNumber';
+import Label from '../../../utilities/Label';
 
 const SideBar = ({ number, labels }) => (
 <aside className={styles.SideBar}>

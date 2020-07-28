@@ -1,5 +1,5 @@
-import React from "react";
-import styles from "./SidePanel.module.scss";
+import React from 'react';
+import styles from './SidePanel.module.scss';
 import RepoLabels from './RepoLabels';
 
 const SidePanel = ({ repo, repoLabels }) => {
