@@ -23,8 +23,11 @@ const App = () => {
     fetch(`https://api.github.com/repos/${repo}/labels`)
     .then((response) => response.json())
     .then((labels) => setRepoLabels(cleanLabels(labels)))
-    .catch((err) =>  { if (err) throw err; })
-  }
+  const fetchRepo = (searchTerm) => {
+    fetch(`https://api.github.com/repos/${searchTerm}/issues`)
+      .then((response) => { if (response.status === 200) setRepo(searchTerm); })
+      .catch((err) => { if (err) throw err; });
+  };
 
   useEffect(() => ( fetchIssues(repo), fetchLabels(repo) ), [repo]);
 
