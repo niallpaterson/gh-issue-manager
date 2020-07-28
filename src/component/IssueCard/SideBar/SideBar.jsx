@@ -13,7 +13,7 @@ const SideBar = ({ number, labels }) => (
 </aside>
 );
 
-SideBar.PropTypes = {
+SideBar.propTypes = {
   number: PropTypes.string.isRequired,
   labels: PropTypes.arrayOf(
     PropTypes.shape({
