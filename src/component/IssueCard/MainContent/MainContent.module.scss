@@ -4,11 +4,21 @@
   width: 66.67%;
   height: 100%;
   float: right;
-  display: inline-block;
-    h3, p {
+  overflow-y: auto;
+
+    h3 {
+      font-size: $font-medium;
+      line-height: 1.25;
+      height: calc($base-value * 2px);
+      overflow: hidden;
+    }
+    h3, p, span {
       margin: $margin-small;
     }
-    p {
+    p, span {
+      display: block;
       font-size: $font-small;
+      text-overflow: ellipsis;
+      overflow: hidden;
     }
 }
