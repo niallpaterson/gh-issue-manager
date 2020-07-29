@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/gh-issue-manager/static/css/main.4a48dc49.chunk.css",
+    "main.js": "/gh-issue-manager/static/js/main.b5383d33.chunk.js",
+    "main.js.map": "/gh-issue-manager/static/js/main.b5383d33.chunk.js.map",
+    "runtime-main.js": "/gh-issue-manager/static/js/runtime-main.f71717b8.js",
+    "runtime-main.js.map": "/gh-issue-manager/static/js/runtime-main.f71717b8.js.map",
+    "static/js/2.ce4ddc9a.chunk.js": "/gh-issue-manager/static/js/2.ce4ddc9a.chunk.js",
+    "static/js/2.ce4ddc9a.chunk.js.map": "/gh-issue-manager/static/js/2.ce4ddc9a.chunk.js.map",
+    "index.html": "/gh-issue-manager/index.html",
+    "precache-manifest.c156a0bd382ee36ddb579e1d97541b11.js": "/gh-issue-manager/precache-manifest.c156a0bd382ee36ddb579e1d97541b11.js",
+    "service-worker.js": "/gh-issue-manager/service-worker.js",
+    "static/css/main.4a48dc49.chunk.css.map": "/gh-issue-manager/static/css/main.4a48dc49.chunk.css.map",
+    "static/js/2.ce4ddc9a.chunk.js.LICENSE.txt": "/gh-issue-manager/static/js/2.ce4ddc9a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f71717b8.js",
+    "static/js/2.ce4ddc9a.chunk.js",
+    "static/css/main.4a48dc49.chunk.css",
+    "static/js/main.b5383d33.chunk.js"
+  ]
+}
