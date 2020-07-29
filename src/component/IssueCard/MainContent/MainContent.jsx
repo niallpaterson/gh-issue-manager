@@ -1,9 +1,15 @@
-import React from "react";
+import React from 'react';
+import Markdown from 'markdown-to-jsx';
 import PropTypes from 'prop-types';
-import styles from "./MainContent.module.scss";
+import styles from './MainContent.module.scss';
 
 const MainContent = ({ title, body }) => (
-  <div className={styles.MainContent}><h3>{title}</h3><p>{body}</p></div>
+  <div className={styles.MainContent}>
+  <h3>
+    {title}
+  </h3>
+  <Markdown>{body}</Markdown>
+  </div>
 );
 
 MainContent.propTypes = {
