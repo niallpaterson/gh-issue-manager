@@ -1,0 +1,14 @@
+@import '../../../variables.scss';
+
+.RepoLabels {
+  text-align: center;
+  height: auto;
+  h3 {
+    color: $lavender-blush;
+    font-weight: 200;
+  }
+  .LabelWrapper {
+    max-height: 350px;
+    overflow-y: auto;
+  }
+}

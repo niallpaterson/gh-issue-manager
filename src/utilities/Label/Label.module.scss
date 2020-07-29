@@ -1,0 +1,17 @@
+@import "../../variables.scss";
+
+.label {
+  display: inline-block;
+  text-align: center;
+  line-height: 1.75px * $base-val;
+  width: 5px * $base-val;
+  height: 1.75px * $base-val;
+  border: 1px solid transparent;
+  border-radius: $border-radius-small;
+  background: greenyellow;
+  margin: $margin-small;
+  overflow-y: hidden;
+  text-overflow: none;
+  font-size: $font-tiny;
+  box-shadow: 2px 3px 2px #353535, 
+}

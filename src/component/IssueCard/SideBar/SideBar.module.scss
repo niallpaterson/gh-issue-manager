@@ -1,0 +1,17 @@
+@import "../../../variables.scss";
+
+.SideBar {
+  width: 33.3%;
+  height: 100%;
+  background-color: $sonic-silver;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: $border-radius-medium 0 0 $border-radius-medium;
+  .LabelContainer{
+    display: flex;
+    flex-direction: column;
+    margin: $margin-small auto;
+  }
+}

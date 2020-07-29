@@ -1,0 +1,10 @@
+@import '../../../variables.scss';
+
+.Searchbar {
+  padding: $padding-small;
+  margin: $margin-medium 0;
+  border-radius: $base-val * 0.25px;
+  border: 1px solid transparent;
+  text-indent: 1px;
+  width: $base-val * 15px;
+}

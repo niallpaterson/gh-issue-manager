@@ -1,0 +1,16 @@
+@import '../../variables.scss';
+
+.issueNumber {
+  width: fit-content;
+  min-width: $base-val * 2px;
+  padding: 2px;
+  height: $base-val * 2px;
+  border: 2px solid $magic-mint;
+  border-radius: $border-radius-medium;
+  background: white;
+  text-align: center;
+  font-size: $font-small;
+  font-weight: bold;
+  line-height: $base-val * 2px;
+  margin: $margin-small;
+}
