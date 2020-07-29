@@ -4,7 +4,7 @@ import IssuePanel from './container/IssuePanel';
 import SidePanel from './component/SidePanel';
 
 const App = () => {
-  const [repo, setRepo] = useState(['cli/cli']);
+  const [repo, setRepo] = useState(['niallpaterson/gh-issue-manager']);
   const [repoLabels, setRepoLabels] = useState([]);
   const [issues, setIssues] = useState([]);
 
