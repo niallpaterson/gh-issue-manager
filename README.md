@@ -24,7 +24,7 @@ niallpaterson/cleanup-react-app
 
 ## Known issues
 
-1. Fetched message bodies are returned as markdown. The app uses the markdown-to-jsx npm package to convert the input to HTML, but this can lead to odd styling within the cards. See for example:
+1\. Fetched message bodies are returned as markdown. The app uses the markdown-to-jsx npm package to convert the input to HTML, but this can lead to odd styling within the cards. See for example:
 
 ````markdown
 cli/cli
@@ -32,12 +32,12 @@ cli/cli
 
 Label bodies need to be styled to resolve each kind of odd styling.
 
-2. The app is not currently fully responsive.
+2\. The app is not currently fully responsive.
 
 ## Planned features
 
 Planned featues incldue:
 
-1. Searchbar dynamically searches for best matches uses the github API search feature. At present this feature causes rate exceeding, which causes the app to crash. This needs to be resolved before dynamic search can be implemented. 
+1\. Searchbar dynamically searches for best matches uses the github API search feature. At present this feature causes rate exceeding, which causes the app to crash. This needs to be resolved before dynamic search can be implemented.
 
-2. Once issues are displayed, they can be filtered by name and/or label.
+2\. Once issues are displayed, they can be filtered by name and/or label.
