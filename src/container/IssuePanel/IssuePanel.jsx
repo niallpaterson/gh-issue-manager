@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from "./IssuePanel.module.scss";
+import PropTypes from 'prop-types';
 import IssueCard from '../../component/IssueCard';
 
 const IssuePanel = ({ issues }) => (
@@ -14,6 +14,18 @@ const IssuePanel = ({ issues }) => (
     />
     ))}
   </section>
-)
+);
+
+IssuePanel.propTypes = {
+  issues: PropTypes.arrayOf(
+    PropTypes.shape({
+      title: PropTypes.string.isRequired,
+      body: PropTypes.string,
+      number: PropTypes.string.isRequired,
+      labels: PropTypes.object,
+      key: PropTypes.number.isRequired,
+    }),
+  ),
+};
 
 export default IssuePanel;
