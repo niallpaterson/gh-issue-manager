@@ -36,7 +36,7 @@ Label bodies need to be styled to resolve each kind of odd styling.
 
 ## Planned features
 
-Planned featues incldue:
+Planned featues include:
 
 1\. Searchbar dynamically searches for best matches uses the github API search feature. At present this feature causes rate exceeding, which causes the app to crash. This needs to be resolved before dynamic search can be implemented.
 
