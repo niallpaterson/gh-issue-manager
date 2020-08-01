@@ -13,7 +13,7 @@ For each label, an appropriately contrasting text color is assigned based on its
 By default the app is set to display the issues of *this repository*. To change repository enter the repo name into the searchbar and hit enter. The syntax is:
 
 ````markdown
-<username/repository>
+<username>/<repository>
 ````
 
 For example:
