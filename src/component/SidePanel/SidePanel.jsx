@@ -9,7 +9,6 @@ const SidePanel = ({ repo, repoLabels, fetchRepo }) => {
       <h1>Github Issue Manager</h1>
       <SearchBar fetchRepo={fetchRepo}/>
       <RepoLabels repoLabels={repoLabels}/>
-      {/* <img> */}
     </section>
   );
 };
