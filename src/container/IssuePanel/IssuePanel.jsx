@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styles from './IssuePanel.module.scss';
 import IssueCard from '../../component/IssueCard';
 
 const IssuePanel = ({ issues }) => (
