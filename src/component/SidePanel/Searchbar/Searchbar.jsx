@@ -11,7 +11,7 @@ const Searchbar = ({ fetchRepo }) => (
 );
 
 Searchbar.propTypes = {
-  fetch: PropTypes.func.isRequired,
+  fetchRepo: PropTypes.func.isRequired,
 };
 
 export default Searchbar;
