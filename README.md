@@ -1,4 +1,4 @@
-# Github issue manager
+# 🗃 Github issue manager
 
 React app that uses the github API to display repository issues.
 
