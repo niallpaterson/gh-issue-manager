@@ -1,9 +1,11 @@
-import React from "react";
-import { render } from "@testing-library/react";
-import MainContent from "./MainContent";
+import React from 'react';
+import { shallow } from 'enzyme';
+import MainContent from './MainContent';
 
-describe("MainContent tests", () => {
-  it("should render", () => {
-    expect(render(<MainContent />)).toBeTruthy();
+describe('MainContent tests', () => {
+  const mainContent = shallow(<MainContent title={'testTitle'}/>);
+
+  it('should render', () => {
+    expect(MainContent).toBeTruthy();
   });
 });
