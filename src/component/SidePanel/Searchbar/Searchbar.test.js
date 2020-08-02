@@ -1,9 +1,13 @@
-import React from "react";
-import { render } from "@testing-library/react";
-import Searchbar from "./Searchbar";
+import React from 'react';
+import { shallow } from 'enzyme';
+import Searchbar from './Searchbar';
+
+const fetchRepo = () => 'repoFetched';
 
 describe("Searchbar tests", () => {
-  it("should render", () => {
-    expect(render(<Searchbar />)).toBeTruthy();
+  const searchBar = shallow(<Searchbar fetchRepo={fetchRepo}/>);
+
+  it('should render', () => {
+    expect(searchBar).toBeTruthy();
   });
 });
