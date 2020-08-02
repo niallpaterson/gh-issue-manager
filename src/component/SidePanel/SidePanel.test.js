@@ -1,9 +1,13 @@
 import React from 'react';
-import { render } from '@testing-library/react';
+import { shallow } from 'enzyme';
 import SidePanel from './SidePanel';
 
-describe('SidePanel tests', () => {
+const fetchRepo = () => 'repoFetched';
+
+describe("Sidepanel tests", () => {
+  const sidepanelTest = shallow(<SidePanel repoLabels={[]} fetchRepo={fetchRepo}/>);
+
   it('should render', () => {
-    expect(render(<SidePanel />)).toBeTruthy();
+    expect(sidepanelTest).toBeTruthy();
   });
 });
