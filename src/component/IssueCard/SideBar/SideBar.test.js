@@ -1,9 +1,11 @@
-import React from "react";
-import { render } from "@testing-library/react";
-import SideBar from "./SideBar";
+import React from 'react';
+import { shallow } from 'enzyme';
+import SideBar from './SideBar';
 
 describe("SideBar tests", () => {
-  it("should render", () => {
-    expect(render(<SideBar />)).toBeTruthy();
+  const sideBar = shallow(<SideBar number={'1'} labels={[]}/>);
+
+  it('should render', () => {
+    expect(sideBar).toBeTruthy();
   });
 });
