@@ -1,9 +1,11 @@
-import React from "react";
-import { render } from "@testing-library/react";
-import Label from "./Label";
+import React from 'react';
+import { shallow } from 'enzyme';
+import Label from './Label';
 
-describe("Label tests", () => {
-  it("should render", () => {
-    expect(render(<Label />)).toBeTruthy();
+describe('Label tests', () => {
+  const label = shallow(<Label labelName={'testLabel'} color={'FFFFFF'}/>);
+
+  it('should render', () => {
+    expect(label).toBeTruthy();
   });
 });
