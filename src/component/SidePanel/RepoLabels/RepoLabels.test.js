@@ -1,9 +1,11 @@
 import React from 'react';
-import { render } from '@testing-library/react';
+import { shallow } from 'enzyme';
 import RepoLabels from './RepoLabels';
 
-describe('RepoLabels tests', () => {
+describe("RepoLabels tests", () => {
+  const repoLabels = shallow(<RepoLabels repoLabels={[]}/>);
+
   it('should render', () => {
-    expect(render(<RepoLabels />)).toBeTruthy();
+    expect(repoLabels).toBeTruthy();
   });
 });
