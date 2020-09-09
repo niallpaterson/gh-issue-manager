@@ -2,9 +2,9 @@
 
 React app that uses the github API to display repository issues.
 
-For each issue associated with a given repository the title and, if they exist, its body and labels are diaplyed. 
+For each issue associated with a given repository, its title and, if they exist, its body and labels are displayed. 
 
-A complete list of the selected repositories labels are also displayed.
+A complete list of the selected repository's labels are also displayed.
 
 For each label, an appropriately contrasting text color is assigned based on its background color.
 
